@@ -30,7 +30,7 @@ $(document).ready(function () {
     // Перебираем массив задач tasks, получая каждую задачу и её индекс
     tasks.forEach((task, index) => {
         // Добавляем в список строку с номером и текстом задачи
-        $list.append(`<li>Задание #${index + 1}: ${task}</li>`);
+        $list.append(`<li>Task #${index + 1}: ${task}</li>`);
     });
   });
 });
